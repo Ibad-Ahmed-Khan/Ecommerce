@@ -1,0 +1,39 @@
+/* Bag.css */
+
+.remove-button {
+  /* Define default button styles */
+  padding: 8px 16px;
+  color: black;
+  border: 1px solid gray;
+  font-size: 14px;
+  font-weight: 400;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.5s ease;
+  border-radius: 4px; /* Adjust as needed */
+}
+
+.remove-button:hover {
+  animation: showerEffect 0.5s alternate;
+}
+
+@keyframes showerEffect {
+  0% {
+    transform: translateX(-10px);
+  }
+  20% {
+    transform: translateX(10px);
+  }
+  40% {
+    transform: translateX(-10px);
+  }
+  60% {
+    transform: translateX(10px);
+  }
+  80% {
+    transform: translateX(-10px);
+  }
+
+  100% {
+    transform: translateX(10px);
+  }
+}
